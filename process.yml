@@ -1,0 +1,11 @@
+apps:
+  - script   : ./bin/server.js
+    name: production-web
+    instances: max
+    watch  : false
+    exec_mode: cluster
+    env    :
+      NODE_PATH: ./src
+      NODE_ENV: production
+      PORT: 8080
+      APIPORT: 8989
