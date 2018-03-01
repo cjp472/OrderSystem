@@ -6,7 +6,7 @@ const methods = ['get', 'post', 'put', 'patch', 'del'];
 function formatUrl(path) {
   const adjustedPath = path[0] !== '/' ? '/' + path : path;
   if (!config.isProduction) {
-    return 'http://172.31.0.36:3000/api' + adjustedPath;
+    return 'http://172.31.1.161:3000/api' + adjustedPath;
     // return 'http://localhost:3005' + adjustedPath;
   }
   return adjustedPath;

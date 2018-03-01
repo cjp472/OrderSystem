@@ -46,8 +46,8 @@
         "NODE_ENV": "production",
         "HOST": "0.0.0.0",
         "PORT": 8080,
-        "APIHOST": "172.31.3.206",
-        "APIPORT": 8080
+        "APIHOST": "172.31.1.161",
+        "APIPORT": 4000
       }
     },
     "start-dev": {
@@ -57,8 +57,8 @@
         "NODE_ENV": "development",
         "HOST": "0.0.0.0",
         "PORT": 3000,
-        "APIHOST": "172.31.3.232",
-        "APIPORT": 7050
+        "APIHOST": "172.31.1.161",
+        "APIPORT": 4000
       }
     },
     "start-dev-api": {
@@ -82,7 +82,7 @@
       "env": {
         "UV_THREADPOOL_SIZE": 100,
         "NODE_PATH": "./src",
-        "HOST": "172.31.0.36",
+        "HOST": "172.31.1.161",
         "PORT": 3000,
         "APIPORT": 3030
       }

@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+dist/
+static/react_index.jsp
+*.iml
+webpack-assets.json
+webpack-stats.json
+npm-debug.log
+.vscode/
+.DS_Store
+logs/
+server/config.js
